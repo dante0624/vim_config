@@ -1,11 +1,6 @@
 noremap <Space> <Nop>
 let mapleader=" "
 
-inoremap <A-h> <Left>
-inoremap <A-j> <Down>
-inoremap <A-k> <Up>
-inoremap <A-l> <Right>
-
 noremap H ^
 noremap L $
 noremap K 020kzz
@@ -37,10 +32,10 @@ noremap <Leader>Q :q!<CR>
 noremap go :copen<CR>
 noremap gq :cclose<CR>
 
-noremap <C-h> <C-w>h
-noremap <C-j> <C-w>j
-noremap <C-k> <C-w>k
-noremap <C-l> <C-w>l
+noremap <Leader>h <C-w>h
+noremap <Leader>j <C-w>j
+noremap <Leader>k <C-w>k
+noremap <Leader>l <C-w>l
 
 noremap <Up> :resize -2<CR>
 noremap <Down> :resize +2<CR>
@@ -49,7 +44,8 @@ noremap <Right> :vertical resize +2<CR>
 
 noremap R <C-r>
 
-noremap <Leader>a <C-a>
+noremap <Leader>i <C-a>
+noremap <Leader>I <C-x>
 
 set number
 set relativenumber
