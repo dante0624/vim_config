@@ -56,11 +56,13 @@ set splitbelow
 set ts=4
 set sw=4
 set breakindent
+set ignorecase
+set smartcase
 
 autocmd FileType * set formatoptions-=cro
 
 set termguicolors
- 
+syntax enable
 let g:tokyonight_style = 'storm' " available: night, storm
 let g:tokyonight_enable_italic = 0
 source ~/.tokyonight.vim
