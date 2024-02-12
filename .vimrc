@@ -1,6 +1,16 @@
 noremap <Space> <Nop>
 let mapleader=" "
 
+noremap <C-h> <Left>
+noremap <C-j> <Down>
+noremap <C-k> <Up>
+noremap <C-l> <Right>
+
+noremap! <C-h> <Left>
+noremap! <C-j> <Down>
+noremap! <C-k> <Up>
+noremap! <C-l> <Right>
+
 noremap H ^
 noremap L $
 noremap K 020kzz
